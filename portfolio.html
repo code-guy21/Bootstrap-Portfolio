@@ -1,104 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Portfolio</title>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!--Reset CSS-->
+		<link rel="stylesheet" href="./reset.css" />
+		<!--Bootstrap-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<!--Custom CSS File-->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
 
-<head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!--Reset CSS-->
-    <link rel="stylesheet" href="./reset.css" />
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <!--Custom CSS File-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+	<body>
+		<div class="container-fluid p-0">
+			<!--Header-->
+			<header class="row justify-content-between no-gutters px-md-3 px-lg-5">
+				<div class="col-md-4 col-lg-3 text-center">
+					<a class="navbar-brand mr-0 w-100 py-3 title" href="./index.html"
+						>Alexis San Javier</a
+					>
+				</div>
+				<div class="col-md-6 my-auto text-center py-2">
+					<nav class="float-md-right">
+						<a href="./index.html">About</a>
+						<a href="./portfolio.html">Portfolio</a>
+						<a href="./contact.html">Contact</a>
+					</nav>
+				</div>
+			</header>
 
-<body>
-    <div class="container-fluid p-0">
-        <!--Header-->
-        <header class="row justify-content-between no-gutters px-md-3 px-lg-5">
-            <div class="col-md-4 col-lg-3 text-center">
-                <a class="navbar-brand mr-0 w-100 py-3 title" href="./index.html">Alexis San Javier</a>
-            </div>
-            <div class="col-md-6 my-auto text-center py-2">
-                <nav class="float-md-right">
-                    <a href="./index.html">About</a>
-                    <a href="./portfolio.html">Portfolio</a>
-                    <a href="./contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
+			<!--Main Content-->
+			<main class="test row my-3 px-2 px-md-3 px-lg-5 no-gutters">
+				<div class="col-lg-9 p-3 content h-100">
+					<h3 class="heading text-md-left text-center">Portfolio</h3>
+					<!--List of Projects-->
+					<div class="row no-gutters">
+						<div class="col-md-6 card text-center p-3">
+							<img
+								src="./assets/images/computer.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body text-light bg-info">
+								<h5 class="card-title">Server</h5>
+							</div>
+						</div>
 
-        <!--Main Content-->
-        <main class=" test row my-3 px-2 px-md-3 px-lg-5 no-gutters">
-            <div class="col-lg-9 p-3 content h-100">
-                <h3 class="heading text-md-left text-center">Portfolio</h3>
-                <!--List of Projects-->
-                <div class="row no-gutters">
-                    <div class="col-md-6 card ">
-                        <img src="./assets/images/computer.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 card">
-                        <img src="./assets/images/headphones.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-md-6 card">
-                        <img src="./assets/images/notes.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 card">
-                        <img src="./assets/images/tech.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-md-6 card">
-                        <img src="./assets/images/visual.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 card">
-                        <img src="./assets/images/phone.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-    </div>
-    <footer>
-        <div>
-            Copyright &copy;
-        </div>
-    </footer>
-</body>
-
+						<div class="col-md-6 card text-center p-3">
+							<img
+								src="./assets/images/headphones.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body text-light bg-info">
+								<h5 class="card-title">Music App</h5>
+							</div>
+						</div>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-md-6 card text-center p-3">
+							<img
+								src="./assets/images/notes.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body text-light bg-info">
+								<h5 class="card-title">Note App</h5>
+							</div>
+						</div>
+						<div class="col-md-6 card text-center p-3">
+							<img
+								src="./assets/images/tech.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body text-light bg-info">
+								<h5 class="card-title">Trivia Game</h5>
+							</div>
+						</div>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-md-6 card text-center p-3">
+							<img
+								src="./assets/images/visual.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body text-light bg-info">
+								<h5 class="card-title">Visualizer</h5>
+							</div>
+						</div>
+						<div class="col-md-6 card text-center p-3">
+							<img
+								src="./assets/images/phone.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body text-light bg-info">
+								<h5 class="card-title">Rock Paper Scissors</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<div>
+				Copyright &copy;
+			</div>
+		</footer>
+	</body>
 </html>

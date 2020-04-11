@@ -1,7 +1,7 @@
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
 	background-image: url('../images/webb.png');
+	color: #777777;
 }
 
 header {
@@ -61,6 +61,7 @@ footer {
 #bio-pic {
 	margin-right: 25px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .content {
