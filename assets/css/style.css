@@ -65,7 +65,18 @@ footer {
 	margin-top: 10px;
 }
 
-main div:first-child {
+.content {
 	background: #ffffff;
 	border: 1px solid #dddddd;
+}
+
+#submit-button {
+	width: auto;
+	color: white;
+	background: #4aaaa5;
+	padding: 5px 15px;
+}
+
+#submit-button:hover {
+	color: grey;
 }
